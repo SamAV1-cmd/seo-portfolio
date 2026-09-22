@@ -7,14 +7,14 @@
 
 body {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
-  color: #2B2B2B; /* charcoal grey text */
+  color: #484849; /* charcoal grey text */
   background-color: #4F7CAC; /* main page background */
   line-height: 1.6;
 }
 
 h1, h2, h3 {
   font-family: 'Space Grotesk', Arial, Helvetica, sans-serif;
-  color: #2B2B2B;
+  color: #484849;
 }
 
 /* ===== NAVIGATION ===== */
@@ -51,7 +51,7 @@ h1, h2, h3 {
 }
 
 .nav-links a {
-  color: #2B2B2B;
+  color: #484849;
   text-decoration: none;
   font-size: 0.95rem;
   font-weight: 500;
@@ -76,8 +76,8 @@ h1, h2, h3 {
 }
 
 .headshot {
-  width: 160px;
-  height: 160px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
@@ -93,7 +93,7 @@ h1, h2, h3 {
   letter-spacing: 1px;
   font-size: 0.85rem;
   font-weight: bold;
-  color: #2B2B2B;
+  color: #484849;
   margin-bottom: 6px;
 }
 
@@ -138,12 +138,17 @@ h1, h2, h3 {
   margin: 0 auto;
 }
 
+/* Case study 3 gets its own background colour, overriding .alt above */
+#case-study-3 {
+  background-color: #4F7CAC;
+}
+
 .case-label {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 0.85rem;
   font-weight: 600;
-  color: #5a5a5a;
+  color: #111111;
   margin-bottom: 8px;
 }
 
@@ -168,6 +173,10 @@ h1, h2, h3 {
 
 .case-study li {
   margin-bottom: 10px;
+}
+
+.case-study li ul {
+  margin-top: 10px;
 }
 
 /* ===== CASE STUDY IMAGE ===== */
@@ -201,7 +210,7 @@ h1, h2, h3 {
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  color: #5a5a5a;
+   color: #111111;
   margin-bottom: 2px;
 }
 
@@ -214,5 +223,5 @@ h1, h2, h3 {
   text-align: center;
   padding: 20px;
   background-color: #C0E0DE;
-  color: #2B2B2B;
+  color: #484849;
 }
