@@ -8,7 +8,7 @@
 body {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   color: #484849; /* charcoal grey text */
-  background-color: #4F7CAC; /* main page background */
+  background-color: #839ab3; /* main page background */
   line-height: 1.6;
 }
 
@@ -140,7 +140,7 @@ h1, h2, h3 {
 
 /* Case study 3 gets its own background colour, overriding .alt above */
 #case-study-3 {
-  background-color: #4F7CAC;
+  background-color: #839ab3;
 }
 
 .case-label {
